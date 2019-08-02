@@ -18,7 +18,7 @@ Os atributo desses produtos são:
 ### Observações Gerais
 Criada uma estrutura de pastas para facilitar a organização do projeto.
 
-| Pasta  | Descrição  | Options & Examples |
+| Pasta  | Descrição  | Observações |
 |---|---|---|
 | `/app`  | Arquivos referentes a implementação lógica da aplicação  | |
 | `./config`  | Arquivos de configuração | |
