@@ -1,0 +1,16 @@
+{
+  "name": "lucasapoena/php_crud_mvc",
+  "description": "Projeto de estudos PHP/MVC",
+  "authors": [
+    {
+      "name": "Lucas Apoena",
+      "email": "lucasapoena@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.1.8"
+  },
+  "require-dev": {
+    "heroku/heroku-buildpack-php": "*"
+  }
+}
