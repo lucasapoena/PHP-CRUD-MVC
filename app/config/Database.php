@@ -39,10 +39,10 @@ class Database {
     }
 
     public function connectPDO(){
-        $this->setHost("localhost");
-        $this->setUsername("root");
-        $this->setPassword("123456");
-        $this->setDatabase("db_loja");
+        $this->setHost(DB_HOST);
+        $this->setUsername(DB_USER);
+        $this->setPassword(DB_PASSWORD);
+        $this->setDatabase(DB_DATABASE);
 
         try {
             $connection = new \PDO('mysql:host='.$this->getHost().';dbname='.$this->getDatabase(),
