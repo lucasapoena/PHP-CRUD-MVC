@@ -41,13 +41,20 @@ git clone https://github.com/lucasapoena/PHP-CRUD-MVC
 ```
 
 - Executar a query **app/config/init.sql** ou importar o arquivo no phpMyAdmin para criar as tables.
-- Editar o arquivo **app/config/Database.php** 
+- Editar o arquivo **app/config/Config.php**; 
+    - Edite a constante **BASE_DIR** com o path do seu projeto;
+    - Edite suas informações de banco de dados;
 
 ```
-$this->setHost("localhost");
-$this->setUsername("root");
-$this->setPassword("123456");
-$this->setDatabase("db_loja");
+# Configuração dos paths
+define('BASE_DIR', "/bleez/PHP-CRUD-MVC");
+
+# Configurações do banco de dados
+define('DB_HOST', 'localhost');
+define('DB_USER', 'root');
+define('DB_PASSWORD', '123456');
+define('DB_DATABASE', 'db_loja');
+
 ```
 
 ### License
