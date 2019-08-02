@@ -21,15 +21,15 @@ Criada uma estrutura de pastas para facilitar a organização do projeto.
 | Pasta  | Descrição  | Observações |
 |---|---|---|
 | `/app`  | Arquivos referentes a implementação lógica da aplicação  | |
-| `./config`  | Arquivos de configuração | |
-| `./controller`  | Classes de Controllers | |
-| `./core`  | Classes base | |
-| `./dao`  | Classes DAO de persistência dos dados | |
-| `./model`  | Classes de Models | |
+| `../config`  | Arquivos de configuração | |
+| `../controller`  | Classes de Controllers | |
+| `../core`  | Classes base | |
+| `../dao`  | Classes DAO de persistência dos dados | |
+| `../model`  | Classes de Models | |
 | `/resources`  | Diretório com arquivos de frontend  | |
-| `./static`  | Arquivos estáticos utilizados nas views  | |
-| `./templates`  | Classes de Views | |
-| `./var`  | Diretório para armazenamento dos arquivos gerais  | |
+| `../static`  | Arquivos estáticos utilizados nas views  | |
+| `../templates`  | Classes de Views | |
+| `../var`  | Diretório para armazenamento dos arquivos gerais  | |
 
 
 ### Como utilizar?
