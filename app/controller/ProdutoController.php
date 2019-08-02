@@ -82,7 +82,9 @@ class ProdutoController extends Controller {
             $produto->setStatus($_POST['status']);
             $produto->setNome($_POST['nome']);
             $produto->setDescricao($_POST['descricao']);
-            $produto->setImagem($_FILES['imagem']['name']);
+            if (!empty($_FILES['imagem']['name'])){
+                $produto->setImagem($_FILES['imagem']['name']);
+            }
             $produto->setPreco($_POST['preco']);
             if ($produto->is_valid()) {
                 if ($produtoDAO->update($produto, $produto_id)){
