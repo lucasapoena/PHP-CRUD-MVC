@@ -59,4 +59,4 @@ define('DB_DATABASE', 'db_loja');
 
 ### License
 
-MIT © 2019 [Lucas Apoena](https://github.com/lucasapoena/) and [contributors](https://github.com/lucasapoena/zabbix-server-docker/graphs/contributors).
+MIT © 2019 [Lucas Apoena](https://github.com/lucasapoena/) and [contributors](https://github.com/lucasapoena/PHP-CRUD-MVC/graphs/contributors).
